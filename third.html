@@ -18,8 +18,53 @@
                         <a class="nav-link" href="second.html">Second</a>
                 </li>
                 <li class="nav-item">
-                        <a class="nav-link" href="third.html">Third</a>
+                        <a class="nav-link" href="third.html">Contact</a>
                 </li>
             </ul>
         </div>
-<h1>Page 3 works</h1>
+        <!---Contact Form-->
+        <div class="container">
+                <div class="col-sm-8">
+                    <form id="form" class="contact__form" method="POST" action="mail.php">
+                                
+                            <!-- form message -->
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="contact__msg" style="display: none">
+                                        <p>Your message was sent successfully.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end message -->
+
+                            <!-- form element -->
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <label for="name1">Name</label>
+                                <input name="name" id="name1" type="text" class="form-control" placeholder="Name" required>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label for="phone1">Phone</label>
+                                <input name="phone" maxlength="14" id="phone1" type="text" class="form-control" placeholder="Phone" required>
+                            </div>
+                            <div class="col-12 form-group">
+                                <label for="email1">Email</label>
+                                <input name="email" id="email1" type="email" class="form-control" placeholder="Email" required>
+                            </div>
+                            <div class="col-12 form-group">
+                                <label for="message1">Message</label>
+                                
+                                <textarea name="message" id="message1" class="form-control" rows="3" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input onKeyPress="return checkSubmit(event)" name="submit" type="submit" class="btn btn-mine" value="Send Message">
+                            </div>
+                        </div>
+                            <!-- end form element -->
+                    </form> 
+                </div>                 
+        </div>
+                
