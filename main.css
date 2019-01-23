@@ -1,16 +1,19 @@
 .container-fluid{
-    padding: 15px;
     background-color: dimgrey;
+    height: 75px;
+}
+body {
+    font-family: sans-serif;
+    background-color: white;
+    background-size: cover;
 }
 h1 {
-    padding-right: 70%;
-    text-align: left;
-    position: fixed;
+    float: left;
+    padding-top: 15px;
 }
 .nav {
-    padding-left: 50%;
-    position: relative;
-    text-align: right;
+    float: right;
+    padding-top: 15px;
 }
 .nav-link{
     text-decoration: none;
@@ -19,8 +22,42 @@ h1 {
 .nav-link:hover{
     color: red; 
 }
-body {
-    font-family: sans-serif;
-    background-image: url("images/Background.svg");   
+.Head {
+    background-image: url("images/Background.svg"); 
     background-size: cover;
+    width: 100%;
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
+.Hero, .Title, .subTitle {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 150px;
+}
+.Title {
+    color: black;
+    font-size: 72px;
+    padding-bottom: 25px;
+    font-family: 'Staatliches', cursive;
+}
+.subTitle {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+.body {
+    background-image: url("images/BodyBackground.svg");
+    background-size: cover;
+    height: 1000px;
+    box-shadow: 0px 0px 20px grey; 
+}
+#shapeContainer svg {
+    display:block;
+    width:10%; 
+    height:10%;
+ }
