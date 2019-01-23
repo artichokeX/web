@@ -1,7 +1,5 @@
-.container-fluid{
-    background-color: dimgrey;
-    height: 75px;
-}
+@import url("header.css");
+
 body {
     font-family: sans-serif;
     background-color: white;
@@ -11,29 +9,39 @@ h1 {
     float: left;
     padding-top: 15px;
 }
-.nav {
-    float: right;
-    padding-top: 15px;
-}
-.nav-link{
-    text-decoration: none;
-    color: aliceblue;
-}
-.nav-link:hover{
-    color: red; 
-}
+
 .Head {
     background-image: url("images/Background.svg"); 
     background-size: cover;
     width: 100%;
-    height: 800px;
+    height: 850px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
-.Hero, .Title, .subTitle {
+body {
+    position: relative;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #202020 !important;
+    min-height: 100%;
+}
+
+body:after {
+    content: "";
+    background-image: url(images/BodyBackground.svg);
+    background-size: cover; 
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+}
+.container, .Title, .subTitle {
     width: 500px;
     margin: 0 auto;
     text-align: center;
@@ -50,14 +58,3 @@ h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
 }
-.body {
-    background-image: url("images/BodyBackground.svg");
-    background-size: cover;
-    height: 1000px;
-    box-shadow: 0px 0px 20px grey; 
-}
-#shapeContainer svg {
-    display:block;
-    width:10%; 
-    height:10%;
- }

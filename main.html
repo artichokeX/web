@@ -8,35 +8,27 @@
         <link rel="stylesheet" href="main.css"> 
         <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway|Staatliches" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <!-- ************************* Body ************************ -->      
     <body>
-    <!-- ************************* NavBar ************************ -->  
-        <div class="container-fluid">
-            <h1>Kurt Miller Create</h1>
-            <ul class="nav justify-content-end" text-decoration: none;>
-                <li class="nav-item">
-                    <a class="nav-link" href="main.html">Home</a>
-                </li>
-                <li class="nav-item">
-                      <a class="nav-link" href="second.html">Second</a>
-                </li>
-                <li class="nav-item">
-                      <a class="nav-link" href="third.html">Third</a>
-                </li>
-            </ul>
-        </div>
-        <div id="dates"></div>
+        <header id="header"></header>
+        <!-----<div id="dates"></div>--->
         <!-- *********************END NavBar ************************ -->  
-        <div class="Head">
-                <div class="Hero">
+        <div class="container-fluid Head">
+                <div class="container">
                     <h1 class="Title">Kurt Miller</h1>
                     <p class="subTitle">Developer | IT Specialist</p>
                 </div>
         </div>
-        <div class="body">
+        <div class="container">
             <p>This is a test</p>
         </div>
         <script src='main.js'></script>
+        <script>
+            $(function(){
+                    $('#header').load('header.html');
+                });
+        </script>
     </body>
 </html>

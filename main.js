@@ -9,3 +9,7 @@ function timeToday() {
     + time.toLocaleTimeString(navigator.language, {hour: '2-digit', minute:'2-digit'});
 }
 timeToday();
+function myDropdown() {
+    document.getElementById("myDropdown").classList.toggle("show");
+    document.getElementById("menu").classList.toggle("animate");
+}
