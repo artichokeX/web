@@ -1,5 +1,6 @@
 @import url("header.css");
 body {
+    width: 100%;
     position: relative;
     margin: 0;
     font-family: 'Quicksand', sans-serif;
