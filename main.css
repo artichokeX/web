@@ -68,6 +68,7 @@ h1 {
 .card{
     text-align: center;
     background-color: #4b4b4b!important;
+    height: 400px;
 }
 .row {
     padding: 15px;
