@@ -1,26 +1,4 @@
 @import url("header.css");
-
-body {
-    font-family: sans-serif;
-    background-color: white;
-    background-size: cover;
-}
-h1 {
-    float: left;
-    padding-top: 15px;
-}
-
-.Head {
-    background-image: url("images/Background.svg"); 
-    background-size: cover;
-    width: 100%;
-    height: 850px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
 body {
     position: relative;
     margin: 0;
@@ -41,7 +19,35 @@ body:after {
     position: absolute;
     z-index: -1; 
 }
-.container, .Title, .subTitle {
+.container {
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 72px;
+}
+h1 {
+    float: left;
+    padding-top: 15px;
+}
+
+.Head {
+    background-image: url("images/Background.svg"); 
+    background-size: cover;
+    width: 100%;
+    height: 850px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.Title, .subTitle {
     width: 500px;
     margin: 0 auto;
     text-align: center;
@@ -57,4 +63,21 @@ body:after {
     color: black;
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
+}
+.card{
+    text-align: center;
+    background-color: #4b4b4b!important;
+}
+.row {
+    padding: 15px;
+}
+.col {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    opacity: 0.5;
+    transition: 0.3s ease;
+}
+    .col:hover {
+       opacity: 1;
+       transform: scale(1.1, 1.1); 
 }
