@@ -1,4 +1,7 @@
 @import url("header.css");
+html{
+    scroll-behavior: smooth !important;
+}
 body {
     position: relative;
     margin: 0;
@@ -29,6 +32,7 @@ body:after {
 h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 72px;
+    padding-top: 10px;
 }
 h1 {
     float: left;

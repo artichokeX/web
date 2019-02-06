@@ -1,8 +1,5 @@
-const cl  = console.log;
-cl('Hello world');
-//console is Variable.
-var time = new Date();
 
+/*var time = new Date();
 function timeToday() {
     var container = document.getElementById('dates');
     return container.innerHTML ='<strong>Todays Date: </strong> ' 
@@ -12,4 +9,4 @@ timeToday();
 function myDropdown() {
     document.getElementById("myDropdown").classList.toggle("show");
     document.getElementById("menu").classList.toggle("animate");
-}
+}*/ // Uneeded script for time at this moment
