@@ -3,6 +3,7 @@ html{
     scroll-behavior: smooth !important;
 }
 body {
+    width: 100%;
     position: relative;
     margin: 0;
     font-family: 'Quicksand', sans-serif;
@@ -71,6 +72,7 @@ h1 {
 .card{
     text-align: center;
     background-color: #4b4b4b!important;
+    height: 400px;
 }
 .row {
     padding: 15px;
