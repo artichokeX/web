@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
     <head>
+        <title>Kurt Miller Create | Philadelphia Metro Area</title>
         <link rel="shortcut icon" type="images/png" href="images/KMiller.png"/>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,14 +22,15 @@
                     <p class="subTitle">Developer | IT Specialist</p>
                 </div>
         </div>
+        <div class="container-fluid"><!--start of fluid container-->
         <div class="container">
             <!-------------------Projects container----------------------------------------->
             <h2>Projects</h2>
-        <div class="row">
+        <div class="row" style="padding-bottom: 150px;">
                 <div class="col">
                     <a href="https://time-db169.firebaseapp.com/" target="_blank">
                     <div class="card">
-                         <img src="./images/project-1.JPG" class="card-img-top" alt="...">
+                         <img src="./images/project-1.JPG" class="card-img-top" alt="Philadelphia">
                          <hr class="my-4">
                          <div class="card-body">
                              <p class="card-text" style="color:white;">TimeZone Application</p>
@@ -42,7 +44,7 @@
                 <div class="col">
                     <a href="https://workflow-df000.firebaseapp.com/" target="_blank">
                     <div class="card">
-                         <img src="./images/project-2.JPG" class="card-img-top" alt="...">
+                         <img src="./images/project-2.JPG" class="card-img-top" alt="Philadelphia">
                          <hr class="my-4">
                          <div class="card-body">
                             <p class="card-text" style="color: white;">WorkFlow Dashboard</p>
@@ -51,11 +53,12 @@
                     </a>
                 </div>  
         </div>
+        </div> 
         <!------------------- End Projects container----------------------------------------->
         
         <!------------------- Rescources container----------------------------------------->
-        
-        <div class="row" style="padding-top: 200px;">
+        <div id="softImages" class="container-fluid" style="text-align: center;">
+        <div class="row">
             <div class="col" style="opacity: 1!important;">
                 <a href="https://angular.io/" target="_blank">
                     <img src="./images/angular.svg" alt="..." style="width: 300px!important; height: 400!important;">
@@ -71,35 +74,39 @@
                     <img src="./images/vsCodeimg.svg" alt="..." style="width: 300px!important; height: 400!important;">
                 </a>    
             </div>
-          </div>    
+          </div>  
+        </div>   
           <!------------------------------ROW 2---------------------------------------------------------------------->
-          <div class="container-fluid">
-          <div class="row" style="padding-top: 200px;">
-                <div class="col" style="opacity: 1!important;">
-                    <div id="second"></div>
-                        <!--<img src="./images/Component.svg" alt="..." style="width: 300px!important; height: 400!important;">
-                    </a>!-->    
+          <div class="container-fluid" style="color: white;">
+          <div class="row" style="padding-top: 100px;">
+                <div class="col-sm auto" style="opacity: 1!important;">
+                    <div id="second"></div>  
                 </div>
-                <div class="col" style="opacity: 1!important;">
-                        <img src="./images/screen.svg" alt="..." style="width: 300px!important; height: 400!important;">
-                </div>
-                <div class="col" style="opacity: 1!important;">
-                        <img src="./images/JS.svg" alt="..." style="width: 300px!important; height: 280px!important;">    
+                <div id="contact" class="col-sm auto" style="opacity: 1!important;">
                 </div>
             </div> 
-            </div> 
+            </div>
           <!-------------------End Recources container----------------------------------------->    
-        </div>
+        </div><!--end of fluid container-->
         <script src='main.js'></script>
         <script>
+                $(function(){
+                    $('#contact').load('contact.html');
+                })
                 $(function(){
                     $('#header').load('header.html');
                 });
                 $(function(){
                     $('#second').load('second.html');
                 });
-                window.alert("Smooth Scroll Test!");
-                console.log("Smooth scroll test");
+                window.alert("UNDER CONSTRUCTION!!!!");
+                console.log("UNDER CONSTRUCTION!!!!");
         </script>
-    </body>
+        </body>
+        <footer>
+            <div class="foot" style="color:darkred; text-align: center;">
+                &copy; Kurt Miller Design <script type="text/javascript">
+                document.write(new Date().getFullYear());</script>
+            </div>
+        </footer>
 </html>
