@@ -76,19 +76,15 @@
           <div class="container-fluid">
           <div class="row" style="padding-top: 200px;">
                 <div class="col" style="opacity: 1!important;">
-                    
-                        <img src="./images/Component.svg" alt="..." style="width: 300px!important; height: 400!important;">
-                    </a>    
+                    <div id="second"></div>
+                        <!--<img src="./images/Component.svg" alt="..." style="width: 300px!important; height: 400!important;">
+                    </a>!-->    
                 </div>
                 <div class="col" style="opacity: 1!important;">
-                    
                         <img src="./images/screen.svg" alt="..." style="width: 300px!important; height: 400!important;">
-                    </a>    
                 </div>
                 <div class="col" style="opacity: 1!important;">
-                    
-                        <img src="./images/JS.svg" alt="..." style="width: 300px!important; height: 280px!important;">
-                    </a>    
+                        <img src="./images/JS.svg" alt="..." style="width: 300px!important; height: 280px!important;">    
                 </div>
             </div> 
             </div> 
@@ -96,8 +92,11 @@
         </div>
         <script src='main.js'></script>
         <script>
-            $(function(){
+                $(function(){
                     $('#header').load('header.html');
+                });
+                $(function(){
+                    $('#second').load('second.html');
                 });
                 window.alert("Smooth Scroll Test!");
                 console.log("Smooth scroll test");
