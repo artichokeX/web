@@ -32,6 +32,7 @@ body:after {
     padding-top: 50px;
 }
 h2 {
+    color:darkred;
     font-family: 'Raleway', sans-serif;
     font-size: 72px;
     padding-top: 10px;
