@@ -14,7 +14,7 @@ body {
 
 body:after {
     content: "";
-    background-image: url(images/BodyBackground.svg);
+    background-image: url("images/BodyBackground.svg");
     background-size: cover; 
     opacity: 0.4;
     top: 0;
@@ -43,7 +43,7 @@ h1 {
 }
 
 .Head {
-    background-image: url("images/Background.svg"); 
+    background-image: url("images/Desktop.svg"); 
     background-size: cover;
     width: 100%;
     height: 850px;
